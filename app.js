@@ -3,14 +3,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 // animate the square div class
 gsap.to('.square', {
-    // x: 700,
-    duration: 3,
+    x: 1000,
+    duration: 8,
     scrollTrigger: {
         trigger: '.square',
-        end: () => `+=${document.querySelector('.square').offsetHeight}`,
-        start: 'top 30%', // top of trigger meets center of viewport
-        toggleClass: 'red',
-        // markers: true,
-    
+        start: 'top 60%',
+        end: 'top 40%',
+        toggleActions: 'restart pause resume complete',
+        // actions props: play pause resume reverse restart reset complete none
+        //  actions:            onEnter onLeave onEnterBack onLeaveBack
+        markers: true,
+
     }
 })

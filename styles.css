@@ -10,15 +10,11 @@ body {
     background-color: pink;
 }
 .div2 {
-    background-color: salmon;
+    background-color: #ffffff;
 }
 
 .square {
     width: 150px;
     height: 20vh;
     background-color: fuchsia;
-}
-
-.red {
-    background-color: red;
 }
