@@ -1,6 +1,19 @@
 body {
     margin: 0;
 }
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.panel {
+    height: 100vh;
+    background-color: pink;
+}
+
+/* 
+// example of pinning a div with scrolltrigger
 
 .div1, .div2 {
     height: 100vh;
@@ -23,4 +36,4 @@ body {
     width: 150px;
     height: 20vh;
     background-color: green;
-}
+} */
